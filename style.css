@@ -166,7 +166,7 @@ body {
   justify-content: center;
   align-items: center;
   position: fixed;
-  right: 67px;
+  right: 45px;
   top: 54.5px;
   z-index: 100;/* 重なり順を一番上にする */
   cursor: pointer;
