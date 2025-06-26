@@ -411,7 +411,7 @@ from {
   background-color: #61E5D3;
   position: relative;
   top: -10px;
-  height: 77px;
+  height: 78px;
 }
 .explain h5 {
     font-size: 16px;
@@ -424,17 +424,20 @@ from {
     font-weight: 500;
 }
 .explain h3 {
-    font-size: 25px;
+    font-size: 20px;
     color: #222426;
     margin-left: ;
-    font-family: "Noto Sans Japanese", sans-serif;
-    margin-right: 25%;
-    margin-top: -1em;
+    font-family: "Boto Sans Japanese", sans-serif;
+    margin-right: 20%;
+    margin-top: -1.5em;
     text-align: right;
     line-height: 2;
     font-weight: 700;
 }
-
+.explain2 span {
+  font-family: "WDXL Lubrifont JP N", sans-serif;
+  font-size: 28px;
+}
 
 .explain h4 {
     font-size: 23px;
@@ -528,5 +531,4 @@ ol > li::before {
 .bold {
     font-weight: bold;
 }
-
 
