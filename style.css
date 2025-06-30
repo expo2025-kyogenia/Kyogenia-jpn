@@ -380,10 +380,10 @@ from {
   
 }
 .scroll-infinity__list--left {
-  animation: infinity-scroll-left 35s infinite linear 0.5s both;
+  animation: infinity-scroll-left 55s infinite linear 0.5s both;
 }
 .scroll-infinity__item {
-  width: calc(100vw / 1.5);
+  width: calc(100vw / 2);
 }
 .scroll-infinity__item>img {
   width: 100%;
@@ -391,7 +391,7 @@ from {
 
 .scroll-infinity__wrap {
   position: relative;
-  top: 75px;
+  top: -10px;
 }
 
 .explain {
@@ -404,18 +404,18 @@ from {
   top: 10px;
   margin-left: 20px;
   margin-right: 20px;
-  background: #ebffff;
+  background: #ffffff;
   border-radius: 5px;
 }
 .haikei {
-  background-color: #61E5D3;
+  background-color: #dddddd;
   position: relative;
   top: -10px;
   height: 78px;
 }
 .explain h5 {
     font-size: 16px;
-    color: #222426;
+    color: #521B00;
     margin-left: 25px;
     font-family: "WDXL Lubrifont JP N", sans-serif;
     margin-right: 1em;
@@ -425,7 +425,7 @@ from {
 }
 .explain h3 {
     font-size: 20px;
-    color: #222426;
+    color: #521B00;
     margin-left: ;
     font-family: "Boto Sans Japanese", sans-serif;
     margin-right: 20%;
