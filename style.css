@@ -509,9 +509,17 @@ from {
   font-weight: 500;
 }
 
+.gaiyou {
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .gaiyou h4 {
   font-family: "WDXL Lubrifont JP N", sans-serif;
   font-size: 28px;
+  position: absolute;
+  top: 10px;
 }
 
 .gaiyou h6 {
@@ -519,16 +527,16 @@ from {
   font-weight: 500;
   font-size: 16px;
   padding-left: 0px;
+  position: absolute;
+  top: 160px;
+  
 }
 
-ol > li::before {
-    margin-left: 1.8em;
-    margin-right: 0.25em;
-    content: counter(li) ".";
-    counter-increment: li;
-    font-weight: bold;
+.nihon h4 {
+  font-family: "WDXL Lubrifont JP N", sans-serif;
+  font-size: 28px;
+  position: absolute;
+  top: 700px;
 }
-.bold {
-    font-weight: bold;
-}
+
 
