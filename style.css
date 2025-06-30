@@ -509,16 +509,16 @@ from {
   font-weight: 500;
 }
 
-
-.process h3 {
-    margin-top: 30px;
-    font-weight: 550;
-    font-size: 25px;
+.gaiyou h4 {
+  font-family: "WDXL Lubrifont JP N", sans-serif;
+  font-size: 28px;
 }
 
-.process ol {
-    counter-reset: li;
-    list-style: none;
+.gaiyou h6 {
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  padding-left: 0px;
 }
 
 ol > li::before {
